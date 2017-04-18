@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "author": {
+      "id": "userId",
+      "type": "integer"
+    },
+    "contents": {
+      "id": "contents",
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "author",
+    "contents"
+  ]
+}
